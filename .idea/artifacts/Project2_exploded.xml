@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Project2 exploded">
+    <output-path>D:/Program Files (x86)/Apache Software Foundation/Tomcat 7.0/webapps/wtbtool</output-path>
+    <root id="root">
+      <element id="directory" name="tools">
+        <element id="directory" name="19">
+          <element id="directory" name="js">
+            <element id="dir-copy" path="$PROJECT_DIR$/js" />
+          </element>
+          <element id="directory" name="css">
+            <element id="dir-copy" path="$PROJECT_DIR$/css" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="pages">
+          <element id="directory" name="tools">
+            <element id="directory" name="19">
+              <element id="directory" name="pages">
+                <element id="dir-copy" path="$PROJECT_DIR$/pages" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="toolResource">
+        <element id="directory" name="19">
+          <element id="artifact" artifact-name="Project2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

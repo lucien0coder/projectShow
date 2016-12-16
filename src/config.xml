@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 这是一个例子 -->
+<Config>
+	<!-- 工具的名称 -->
+	<ToolName>
+		ProjectShow
+	</ToolName>
+
+	<!-- 作者 -->
+	<Author>
+		lucien_zhu
+	</Author>
+
+	<!-- 版本号 -->
+	<Version>
+		1.0
+	</Version>
+
+	<!-- 需要加载器加载的类(入口类)的全名 -->
+	<EntryClass>
+        com.pm.tool.dev.ProjectShow
+    </EntryClass>
+
+	<!-- 描述 -->
+	<Description>
+		This tool fill the work DataGridTool.
+	</Description>
+	
+	<url>
+		http://www.wetoband.com
+	</url>
+	
+	<toolType>
+		java project
+	</toolType>
+</Config>

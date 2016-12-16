@@ -1,0 +1,89 @@
+body{
+	font-family: Microsoft Yahei;
+	overflow: hidden;
+}
+
+header .page-header{
+	margin-top: 30px;
+}
+
+section{
+	width: 100%;
+	height:80%;
+	position:fixed;
+	padding: 0 1em 0 2em;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+	line-height: 3em;
+  	text-align: center;
+	}
+
+.model_quarter{
+	width: 48%;
+	float: left;
+	margin: 0 0 0.4em 0.8em;
+	height: 50%;
+  	overflow: hidden;
+}
+
+.model_half{
+
+}
+
+.model_single{
+
+}
+
+.badge{
+	float: right;
+}
+
+.progress{
+	margin: -2em 0 0 0;
+	float: right;
+}
+.ring{
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	border: 1px solid white;
+	-webkit-transform: rotate(270deg);
+}
+.rate{
+	display: -webkit-box;
+	-webkit-transform: rotate(90deg);
+	font-size: 1.7em;
+	margin: 1.4em 0em 0 0;
+	position: absolute;
+	width: 45px;
+}
+.warning .rate{
+	color: rgb(138, 109, 59);
+}
+.info .rate{
+	color:#31708F;
+}
+.success .rate{
+	color:#3c763d;
+}
+.danger .rate{
+	color:#a94442;
+}
+.pro_detail{
+	font-size: xx-small;
+	color: darkgrey;
+}
+.list-group-item label{
+	color: rgb(63, 156, 173);
+}
+.list-group-item{
+  	margin-bottom: 1px;
+}
+.list-group{
+	margin-bottom: 0px;
+}
